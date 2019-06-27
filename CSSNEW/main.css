@@ -6,6 +6,7 @@ body{
     background-attachment: fixed;
     color: black;
     background-repeat: no-repeat;
+    width:100%;
 }
 
 .image{
@@ -34,6 +35,8 @@ body{
     font-style: italic;
     color: black;
     text-align: left;
+    bottom: -45px;
+    margin-left: 10px;
 
 }
 .link-items2{
@@ -42,15 +45,17 @@ body{
     font-weight: bolder;
     font-style: italic;
     text-align: left;
-    margin-left: 250px;
-    bottom: 25px;
+    margin-left: 50px;
+    bottom: -40px;
+ 
 }
 
 #im{
     position: relative;
     bottom: 60px;
     text-align: left;
-    left: -200px;
+    margin-left: 50px;
+    margin-bottom: -120px;
 
 }
 
@@ -61,14 +66,14 @@ body{
     font-weight: bolder;
     font-style: italic;
     text-align: left;
-    margin-left: 475px;
-    bottom: 100px;
+    margin-left: 5px;
+    bottom:-40px;
 }
 
 #im2{
     position: relative;
-    bottom: 130px;
-    left: -25px;
+    bottom: -60px;
+    margin-left: 50px;
 
 }
 
@@ -77,15 +82,15 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-style: italic;
-    margin-left: 80px;
-    bottom: 175px;
+    margin-left: 5px;
+    bottom: -40px;
     
 }
 
 #im3{
     position: relative;
-    bottom: 200px;
-    left: 140px;
+    bottom: -55px;
+    margin-left: 50px;
 
 }
 
@@ -94,15 +99,15 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-style: italic;
-    margin-left: 450px;
-    bottom: 240px;
+    margin-left: 10px;
+    bottom: -40px;
     
 }
 
 #im4{
     position: relative;
-    left: 350px;
-    bottom:270px;
+    margin-left: 50px;
+    bottom:-60px;
 
 }
 
