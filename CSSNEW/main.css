@@ -2,7 +2,7 @@ body{
     background-image: url(../pexels.jpeg);
     font-family: Arial, Helvetica, sans-serif;
     line-height:1.25;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
     color: black;
     background-repeat: no-repeat;
