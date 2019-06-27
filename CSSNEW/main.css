@@ -1,0 +1,136 @@
+body{
+    background-image: url(../pexels.jpeg);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.25;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+}
+
+.image{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 25%;
+}
+
+.name{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:40px;
+    font-weight: bold;
+    font-style: italic;
+    color:white;
+    margin-left: 500px;
+}
+
+.link-items1{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+    text-align: left;
+
+}
+.link-items2{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: left;
+    margin-left: 250px;
+    bottom: 25px;
+}
+
+#im{
+    position: relative;
+    bottom: 60px;
+    text-align: left;
+    left: -200px;
+
+}
+
+
+.link-items3{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: left;
+    margin-left: 475px;
+    bottom: 100px;
+}
+
+#im2{
+    position: relative;
+    bottom: 130px;
+    left: -25px;
+
+}
+
+.link-items4{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 80px;
+    bottom: 175px;
+    
+}
+
+#im3{
+    position: relative;
+    bottom: 200px;
+    left: 140px;
+
+}
+
+.link-items5{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 450px;
+    bottom: 240px;
+    
+}
+
+#im4{
+    position: relative;
+    left: 350px;
+    bottom:270px;
+
+}
+
+.link-items6{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 500px;
+    bottom: 240px;
+    
+}
+
+
+.page2{
+    position: relative;
+    margin-left: 1150px;
+    top: -450px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color:black;
+    text-align: center;
+    opacity: 0.5;
+    height: 50px;;
+ }
+  

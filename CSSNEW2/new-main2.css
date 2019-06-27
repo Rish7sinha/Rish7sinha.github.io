@@ -1,0 +1,76 @@
+body{
+    background-image: url(../pexels1.jpeg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height:1.25;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+}
+
+#sum{
+    position: relative;
+    border-style: solid;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+
+.skill-title{
+    position: relative;
+    font-weight: bold;
+    border-style: solid;
+    top: 10px;
+    padding: 10px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 25px;
+
+}
+
+.certificate{
+    position: relative;
+    font-weight: bold;
+    border-style: solid;
+    top: 10px;
+    padding: 10px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-left: 425px;
+    margin-top: -285px;
+    height:260px;
+
+}
+
+.second{
+    position: relative;
+    font-weight: bold;
+    border-style: solid;
+    top: 10px;
+    padding: 10px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-left: 850px;
+    margin-top: -285px;
+
+}
+
+.interest-title{
+    position: relative;
+    font-weight: bold;
+    border-style: solid;
+    top: 10px;
+    padding: 10px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-top: -200px;
+    width:800px;
+    text-align: center;
+
+}
