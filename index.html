@@ -49,5 +49,26 @@
     </section>
 </body>
 
-<script src="geiapicall.js"></script>
+<script>
+    var global;
+function gitData(){
+    function printrepos(){
+    var res = JSON.parse(this.responseText);
+    global=res;
+    var getgit=document.getElementById("link-items6");
+    if(getgit.innerHTML==""){
+    for(var i = 0; i< res.length; i++){
+        getgit.innerHTML+= `<div><a href= ${res[i]["html_url"] }>${res[i]["name"] }</a></div>`;
+    }
+}
+else
+    getgit.innerHTML="";
+
+}
+var request = new XMLHttpRequest();
+request.onload = printrepos;
+request.open('GET','https://api.github.com/users/rish7sinha/repos',true);
+request.send();
+}
+</script>
 </html>
