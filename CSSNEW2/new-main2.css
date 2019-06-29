@@ -7,7 +7,7 @@ body{
     color: black;
 }
 
-#sum{
+.sum{
     position: relative;
     border-style: solid;
     font-weight: bold;
@@ -15,9 +15,9 @@ body{
     border-radius: 25px;
     text-align: justify;
     font-size: 20px;
-
+    transition: transform .2s;
+ 
 }
-
 
 .skill-title{
     position: relative;
@@ -72,5 +72,33 @@ body{
     margin-top: -200px;
     width:800px;
     text-align: center;
-
 }
+
+.interest_container{
+        transition: transform .2s;   
+}
+       
+.interest_container:hover {
+        transform: scale(1.5); 
+}
+    
+.home{
+    position: relative;
+    bottom:-70px;
+    font-weight: bold;
+}
+
+#exp{
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 130px;
+    border-radius: 20px;
+}
+
+#edu{
+    position: absolute;
+    margin-top: -175px;
+    margin-left: 125px;
+    border-radius: 20px;
+}
+
