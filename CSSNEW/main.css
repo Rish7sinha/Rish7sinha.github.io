@@ -129,7 +129,7 @@ body{
 .footer {
     display: flex;
     background-color:white;
-    opacity: 0.5;
+    opacity: 0.7;
     margin-top: 70px;
     height: 50px;
     flex-direction: row;
